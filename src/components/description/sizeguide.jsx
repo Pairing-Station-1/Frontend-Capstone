@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SizeDisplay from './SizeDisplay'; // Import the SizeDisplay component from its file
+import SizeDisplay from './sizedisplay'; // Import the SizeDisplay component from its file
 
 const SizeGuide = ({ size, parsedData }) => {
   const [showSizeDisplay, setShowSizeDisplay] = useState(false);
